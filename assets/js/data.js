@@ -7,7 +7,7 @@ const products = [
     category: "Skincare",
     skinType: "Dry",
     image:
-      "https://images.unsplash.com/photo-1612810806546-1ce834a6f7d6?auto=format&fit=crop&w=600&q=80",
+      "https://as2.ftcdn.net/v2/jpg/10/51/52/29/1000_F_1051522992_CNO5yRYKfvsA8LdycLAMiTm6y2S8EDgf.jpg",
     description: "Aloe + rosewater spritz that calms and hydrates dry skin."
   },
   {
