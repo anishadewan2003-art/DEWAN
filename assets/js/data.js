@@ -77,7 +77,7 @@ const products = [
     category: "Skincare",
     skinType: "Combination",
     image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80",
+      "https://ayurvedastore.co.nz/cdn/shop/files/Glow_Guard_SPF.png?v=1744587505&width=1080",
     description: "Hybrid sunscreen with niacinamide boosts radiance."
   },
   {
@@ -87,7 +87,7 @@ const products = [
     category: "Skincare",
     skinType: "Normal",
     image:
-      "https://images.unsplash.com/photo-1522335789209-be64301f7344?auto=format&fit=crop&w=600&q=80",
+      "https://ohmycream.co.uk/cdn/shop/products/04_22_Encart_Inspi_Luna_Sunday_Riley_grande.jpg?v=1753785226",
     description: "Light retinol oil to refine texture overnight."
   }
 ];
