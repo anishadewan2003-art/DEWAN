@@ -69,8 +69,13 @@ const showQuizResult = (answers, recommendations) => {
             (item) => `
               <article class="card product-card">
                 <img src="${item.image}" alt="${item.name}">
-                <h4>${item.name}</h4>
+                <span class="tag">${item.category}</span>
+                <h3>${item.name}</h3>
                 <p>${item.description}</p>
+                <div class="product-meta">
+                  <span>$${item.price.toFixed(2)}</span>
+                  <span>${item.skinType} skin</span>
+                </div>
                 <button class="btn btn-primary" data-add="${item.id}">Add to cart</button>
               </article>`
           )
