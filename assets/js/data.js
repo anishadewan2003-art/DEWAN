@@ -17,7 +17,7 @@ const products = [
     category: "Makeup",
     skinType: "Oily",
     image:
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80",
+      "https://as2.ftcdn.net/v2/jpg/09/43/12/49/1000_F_943124970_EIsXztsRnTf1hepqxLUtptmCcSivA8Fb.jpg",
     description: "Oil-control pigments keep shine away for 12h."
   },
   {
