@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCart | Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">GlowCart</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="quiz.html">Skin Quiz</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="tryon.html">Virtual Try-On</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" data-nav="quiz.html">Skin Quiz</button>
+        <a class="cart-indicator" href="cart.html">🛒<span data-cart-count>0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <p class="tag">GlowCart catalog</p>
+      <h1>Shop by skin type</h1>
+      <p>Use filters to match formulas to your skin concerns. Products update instantly.</p>
+
+      <div class="filters">
+        <input id="searchInput" class="search-input" type="search" placeholder="Search serums, lip tints, SPF..." />
+        <select id="filterSkin"></select>
+        <select id="filterCategory"></select>
+        <select id="filterPrice">
+          <option value="default">Featured</option>
+          <option value="asc">Price: low → high</option>
+        </select>
+      </div>
+
+      <p id="resultCount"></p>
+      <div id="productsGrid" class="cards-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>GlowCart • Beauty & Skincare Commerce</p>
+    <div class="footer-links">
+      <a href="products.html">Shop</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="blog.html">Guides</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <p>© 2025 GlowCart. For educational use.</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products.js"></script>
+</body>
+
+</html>
+

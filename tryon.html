@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCart | Virtual Try-On</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">GlowCart</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="quiz.html">Skin Quiz</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="tryon.html">Virtual Try-On</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" data-nav="products.html">Shop</button>
+        <a class="cart-indicator" href="cart.html">🛒<span data-cart-count>0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <p class="tag">Playful AR preview</p>
+      <h1>Virtual try-on lab</h1>
+      <p>Upload a selfie (placeholder) and test pastel lipstick or foundation shades. Perfect for presenting the concept before integrating actual AR.</p>
+      <div class="two-column">
+        <div class="tryon-preview" id="tryonPreview" style="--lip-color:#f5a3b7;">
+          <div class="virtual-face">
+            <div class="virtual-lips"></div>
+            <div class="virtual-cheeks"></div>
+          </div>
+          <p data-selected-shade>Selected Shade: Rose Glow</p>
+          <div id="swatchStrip" class="swatches"></div>
+        </div>
+        <div class="card">
+          <h3>Upload a selfie</h3>
+          <p>Future AR feature placeholder. Use this dummy upload to showcase UX flow.</p>
+          <label class="btn btn-primary" for="uploadInput">Upload image</label>
+          <input type="file" id="uploadInput" accept="image/*" hidden />
+          <p id="uploadLabel">No file chosen</p>
+          <ul>
+            <li>Step 1: Upload selfie</li>
+            <li>Step 2: Pick lipstick or base shade</li>
+            <li>Step 3: Save favorites to cart</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>GlowCart • Beauty & Skincare Commerce</p>
+    <div class="footer-links">
+      <a href="products.html">Shop</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="blog.html">Guides</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <p>© 2025 GlowCart. For educational use.</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tryon.js"></script>
+</body>
+
+</html>
+

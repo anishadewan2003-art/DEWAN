@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCart | Skin Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">GlowCart</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="quiz.html">Skin Quiz</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="tryon.html">Virtual Try-On</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" data-nav="products.html">Shop</button>
+        <a class="cart-indicator" href="cart.html">🛒<span data-cart-count>0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <p class="tag">Personalized beauty</p>
+      <h1>Skin-type quiz</h1>
+      <p>Answer 5 quick questions so we can recommend curated products that love your skin type.</p>
+      <div class="card quiz-card">
+        <form id="quizForm">
+          <div id="quizQuestions"></div>
+          <button type="submit" class="btn btn-primary">Get recommendations</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="quizResult"></section>
+  </main>
+
+  <footer>
+    <p>GlowCart • Beauty & Skincare Commerce</p>
+    <div class="footer-links">
+      <a href="products.html">Shop</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="blog.html">Guides</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <p>© 2025 GlowCart. For educational use.</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/quiz.js"></script>
+</body>
+
+</html>
+

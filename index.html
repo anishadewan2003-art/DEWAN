@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCart | Beauty & Skincare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">GlowCart</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="quiz.html">Skin Quiz</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="tryon.html">Virtual Try-On</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" data-nav="quiz.html">Skin Quiz</button>
+        <a class="cart-indicator" href="cart.html">🛒<span data-cart-count>0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tag">Glow smarter</p>
+        <h1>Find skincare that loves your skin back.</h1>
+        <p>GlowCart curates clean beauty picks by skin type so you can skip the guesswork. Build your routine, read bite-sized guides, and virtually test shades.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <button class="btn btn-primary" data-nav="products.html">Shop now</button>
+          <button class="btn btn-outline" data-nav="quiz.html">Take Skin Quiz</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=800&q=80" alt="Beauty products collage">
+      </div>
+    </section>
+
+    <section class="section" id="featured">
+      <h2 class="section-title">Featured glow picks</h2>
+      <div id="featuredProducts" class="cards-grid"></div>
+    </section>
+
+    <section class="section two-column">
+      <div class="card">
+        <h3>Take the 2-minute quiz</h3>
+        <p>Personalized regimen suggestions based on your answers. Save the results for later and add products in one tap.</p>
+        <button class="btn btn-primary" data-nav="quiz.html">Start quiz</button>
+      </div>
+      <div class="card">
+        <h3>Try before you buy</h3>
+        <p>Use our playful virtual try-on to swatch lipstick and base shades. Upload a selfie and test pastel or bold hues.</p>
+        <button class="btn btn-outline" data-nav="tryon.html">Virtual try-on</button>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <h2>Student project ready</h2>
+      <p>GlowCart is crafted for university demos—clean, responsive, and easy to extend.</p>
+      <button class="btn btn-primary" data-nav="products.html">Browse catalog</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>GlowCart • Beauty & Skincare Commerce</p>
+    <div class="footer-links">
+      <a href="products.html">Shop</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="blog.html">Guides</a>
+      <a href="cart.html">Cart</a>
+    </div>
+    <p>© 2025 GlowCart. For educational use.</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+
+</html>
+
