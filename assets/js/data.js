@@ -47,7 +47,7 @@ const products = [
     category: "Makeup",
     skinType: "All",
     image:
-      "https://images.unsplash.com/photo-1522335789209-be64301f7344?auto=format&fit=crop&w=600&q=80",
+      "https://beeinspiredgoods.com/cdn/shop/files/Lip-Tint-on-white-Naturals-Trio-w-smears-sq-web.jpg?v=1762280947&width=1080",
     description: "Buildable lip color set in rose, nude, berry."
   },
   {
@@ -57,7 +57,7 @@ const products = [
     category: "Skincare",
     skinType: "Sensitive",
     image:
-      "https://images.unsplash.com/photo-1522337094841-45867d528bc0?auto=format&fit=crop&w=600&q=80",
+      "https://as2.ftcdn.net/v2/jpg/07/72/32/59/1000_F_772325981_LbHjcg39JEsoUoPFpsTRiEV46NveEiqT.jpg",
     description: "Strengthens barrier with ceramides + centella."
   },
   {
