@@ -27,7 +27,7 @@ const products = [
     category: "Skincare",
     skinType: "Combination",
     image:
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80",
+      "https://as2.ftcdn.net/v2/jpg/17/90/50/10/1000_F_1790501014_WS6KuHCO6Gi3tK7VN4oqlOpdtWS4Wody.jpg",
     description: "Brightens dull spots while staying gentle."
   },
   {
