@@ -67,7 +67,7 @@ const products = [
     category: "Makeup",
     skinType: "Oily",
     image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfoTa2TaZr0SAks85ZNNu5O-RP-uGdOsrpag&s",
     description: "Featherlight translucent powder for poreless finish."
   },
   {
@@ -98,7 +98,7 @@ const blogPosts = [
     category: "Skincare Guides",
     readTime: "5 min read",
     image:
-      "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=600&q=80",
+      "https://www.lumigloskin.com/cdn/shop/articles/Lumi_Glo_Logo_1.png?v=1713444361",
     summary: "Learn the correct order to apply toner, serums, and creams.",
     link: "#"
   },
